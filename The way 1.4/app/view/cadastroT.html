@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+   <title> Cadastre-se - Encontre os caminhoneiros mais ideias para seus serviços </title>
+
+  <!-- Importação do CSS -->
+  <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../assets/css/animate.min.css" rel="stylesheet">
+  <link href="../../assets/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../../assets/css/lightbox.css" rel="stylesheet">
+  <link href="../../assets/css/main.css" rel="stylesheet">
+  <link id="css-preset" href="../../assets/css/presets/preset1.css" rel="stylesheet">
+  <link href="../../assets/css/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../../assets/css/estilotw.css">
+  <link rel="shortcut icon" href="../../assets/images/logo.png">
+  <link href="http://cdn.phpoll.com/css/animate.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <!-- Importação do JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="../../assets/js/html5shiv.js"></script>
+  <script src="../../assets/js/respond.min.js"></script>
+
+</head>
+<body>
+
+  <!-- Nome do formulario -->
+  <center><h1> Vamos começar: </h1></center>
+
+        <form class="form-horizontal"><!-- Form - Inicio do formulario -->
+            <fieldset><!-- conjunto de campos -->
+
+                <!-- Text input(Entrada de texto)-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="Nome"></label>  
+                  <div class="col-md-4">
+                      <input id="Nome" name="Nome" type="text" placeholder="Nome" class="form-control input-md" required="" title="Preencha com seu primeiro">
+                  </div>
+              </div>
+
+              <!-- Text input(Entrada de texto)-->
+              <div class="form-group">
+                  <label class="col-md-4 control-label" for="G-mail"></label>  
+                  <div class="col-md-4">
+                      <input id="G-mail" name="G-mail" type="email" placeholder="G-mail" class="form-control input-md" required="" title="Preencha com seu G-mail ou E-mail">
+                  </div>
+              </div>
+
+              <!-- Text input(Entrada de texto)-->
+              <div class="form-group">
+                  <label class="col-md-4 control-label" for="Telefone"></label>  
+                  <div class="col-md-4">
+                      <input id="Telefone" name="Telefone" type="tel" pattern="^\d{2}\d{4}\d{4}$" placeholder="Telefone" class="form-control input-md" required="" title="Digite seu numero de telefone (DDD)XXXX-XXXX">
+                  </div>
+              </div>
+
+              <!-- Text input(Entrada de texto)-->
+              <div alt="form-group" class="dropdown" id="dropdown">
+               <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> Estados
+               <span class="caret"></span></button>
+               <ul class="dropdown-menu">
+                 <li><a href="#SC">SC</a></li>
+                 <li><a href="#MG">MG</a></li>
+                 <li><a href="#SP">SP</a></li>
+               </ul>
+             </div>
+
+              <!-- Password input(Entrada de senha)-->
+              <div class="form-group">
+                  <label class="col-md-4 control-label" for="Senha"></label>
+                  <div class="col-md-4">
+                    <input id="Senha" name="Senha" type="password" placeholder="Senha" class="form-control input-md" required="">
+
+                </div>
+            </div>
+
+<!-- Botões -->
+        <!-- Button (Double) - Botão (Duplo) -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="botton1"></label>
+          <div class="col-md-8">
+            <a href="cadastroT2.html" class="btn btn-success" role="button"> Prosseguir </a>
+            <a href="../../index.html" class="btn btn-danger" role="button"> Cancelar   </a>
+          </div>
+        </div>
+
+        <!-- Botão para Home -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="botton1"></label>
+          <div class="col-md-8">
+            <a href="menuDeCadastros.html" class="btn btn-warning" role="button"> Voltar </a> 
+            <button class="btn btn-info" type="submit"> Enviar </button>                          
+          </div>
+    </fieldset>
+  </form> <!-- /Form - Fim do formulario -->
+
+</body>
+</html>
